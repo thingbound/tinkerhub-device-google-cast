@@ -1,0 +1,27 @@
+{
+  "name": "tinkerhub-device-google-cast",
+  "version": "0.1.0",
+  "description": "Tinkerhub support for Google Cast (Chromecast)",
+  "repository": "tinkerhub/tinkerhub-device-google-cast",
+  "license": "MIT",
+  "main": "index.js",
+  "keywords": [
+    "tinkerhub",
+    "tinkerhub-plugin",
+    "google cast",
+    "chromecast"
+  ],
+  "scripts": {
+    "test": "node_modules/.bin/eslint lib"
+  },
+  "dependencies": {
+    "abstract-things": "^0.5.0",
+    "castv2-client": "^1.2.0",
+    "tinkerhub": "^2.5.0",
+    "tinkerhub-mdns": "^0.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^4.14.0",
+    "eslint-plugin-node": "^5.2.1"
+  }
+}
